@@ -1,9 +1,9 @@
-# MMSwitch
+# LMMSwitch
 
-[![CI Status](https://img.shields.io/travis/isaaclzg/MMSwitch.svg?style=flat)](https://travis-ci.org/isaaclzg/MMSwitch)
-[![Version](https://img.shields.io/cocoapods/v/MMSwitch.svg?style=flat)](https://cocoapods.org/pods/MMSwitch)
-[![License](https://img.shields.io/cocoapods/l/MMSwitch.svg?style=flat)](https://cocoapods.org/pods/MMSwitch)
-[![Platform](https://img.shields.io/cocoapods/p/MMSwitch.svg?style=flat)](https://cocoapods.org/pods/MMSwitch)
+[![CI Status](https://img.shields.io/travis/isaaclzg/LMMSwitch.svg?style=flat)](https://travis-ci.org/isaaclzg/LMMSwitch)
+[![Version](https://img.shields.io/cocoapods/v/LMMSwitch.svg?style=flat)](https://cocoapods.org/pods/LMMSwitch)
+[![License](https://img.shields.io/cocoapods/l/LMMSwitch.svg?style=flat)](https://cocoapods.org/pods/LMMSwitch)
+[![Platform](https://img.shields.io/cocoapods/p/LMMSwitch.svg?style=flat)](https://cocoapods.org/pods/LMMSwitch)
 
 ## Example
 
@@ -13,11 +13,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-MMSwitch is available through [CocoaPods](https://cocoapods.org). To install
+LMMSwitch is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MMSwitch'
+pod 'LMMSwitch'
 ```
 
 ```
@@ -53,4 +53,4 @@ Isaac_gang@163.com
 
 ## License
 
-MMSwitch is available under the MIT license. See the LICENSE file for more info.
+LMMSwitch is available under the MIT license. See the LICENSE file for more info.
