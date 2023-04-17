@@ -1,0 +1,23 @@
+PODS:
+  - LMMSwitch (1.0.0):
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - LMMSwitch (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  LMMSwitch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LMMSwitch: dc0628829f02fc6425008bedb904d28b20dd0740
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: d6c0700e292d395ef50b3e57ade849c56bb689e9
+
+COCOAPODS: 1.12.0
