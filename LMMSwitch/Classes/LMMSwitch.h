@@ -44,7 +44,7 @@ typedef void (^SwitchValueChangeBlock) (LMMSwitch *swith, BOOL on);
 @property (nonatomic, assign) UIEdgeInsets padding;
 
 /// 查看开关打开状态, 默认为关闭
-@property (nonatomic, readonly, getter=isOn) BOOL on;
+@property (nonatomic, assign, getter=isOn) BOOL on;
 
 /// 开关状态改变回调block
 @property (nonatomic, copy) SwitchValueChangeBlock switchValueChange;
@@ -52,7 +52,7 @@ typedef void (^SwitchValueChangeBlock) (LMMSwitch *swith, BOOL on);
 /// delegate
 @property (nonatomic, weak) id <LMMSwitchDelegate> delegate;
 
-/// 设置开关状态
+/// 设置开关状态,会触发delegate和block回调
 /// - Parameters:
 ///   - newOn: 开关
 ///   - animated: 是否有动画

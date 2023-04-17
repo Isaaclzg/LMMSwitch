@@ -94,7 +94,6 @@
         }
     }];
     _on = newOn;
-
 }
 
 - (void)setSwitchColorWithStatus:(BOOL)on {
@@ -174,6 +173,22 @@
         self.topView.layer.cornerRadius = self.topView.frame.size.height / 2;
         self.topView.layer.masksToBounds = YES;
     });
+}
+
+- (void)setOn:(BOOL)on {
+    _on = on;
+    
+    __block CGRect frame = self.topView.frame;
+    CGFloat newX = on ? self.frame.size.width - self.topView.frame.size.width - self.padding.right : self.padding.left;
+    [UIView animateWithDuration:0.2 animations:^{
+        frame.origin.x = newX;
+        self.topView.frame = frame;
+        [self setSwitchColorWithStatus:on];
+    } completion:^(BOOL finished) {
+        if (finished) {
+            
+        }
+    }];
 }
 
 #pragma mark - —————————————————————Lazy Method—————————————————————
