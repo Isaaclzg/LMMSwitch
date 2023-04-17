@@ -52,4 +52,10 @@ typedef void (^SwitchValueChangeBlock) (LMMSwitch *swith, BOOL on);
 /// delegate
 @property (nonatomic, weak) id <LMMSwitchDelegate> delegate;
 
+/// 设置开关状态
+/// - Parameters:
+///   - newOn: 开关
+///   - animated: 是否有动画
+- (void)setOn:(BOOL)newOn animated:(BOOL)animated;
+
 @end
