@@ -77,6 +77,7 @@
 
 - (void)setOn:(BOOL)newOn animated:(BOOL)animated {
     
+    [self layoutIfNeeded];
     __block CGRect frame = self.topView.frame;
     CGFloat newX = newOn ? self.frame.size.width - self.topView.frame.size.width - self.padding.right : self.padding.left;
     [UIView animateWithDuration:animated ? 0.2 : 0.0 animations:^{
@@ -178,6 +179,7 @@
 - (void)setOn:(BOOL)on {
     _on = on;
     
+    [self layoutIfNeeded];
     __block CGRect frame = self.topView.frame;
     CGFloat newX = on ? self.frame.size.width - self.topView.frame.size.width - self.padding.right : self.padding.left;
     [UIView animateWithDuration:0.2 animations:^{
