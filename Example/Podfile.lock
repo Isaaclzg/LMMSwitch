@@ -1,5 +1,5 @@
 PODS:
-  - LMMSwitch (1.0.4):
+  - LMMSwitch (1.0.0):
     - Masonry
   - Masonry (1.1.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LMMSwitch: bf8a93a49cf9f3610031a5b906fbeb322b9470b4
+  LMMSwitch: dc0628829f02fc6425008bedb904d28b20dd0740
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: d6c0700e292d395ef50b3e57ade849c56bb689e9

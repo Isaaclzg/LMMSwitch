@@ -182,7 +182,7 @@
     [self layoutIfNeeded];
     __block CGRect frame = self.topView.frame;
     CGFloat newX = on ? self.frame.size.width - self.topView.frame.size.width - self.padding.right : self.padding.left;
-    [UIView animateWithDuration:0.2 animations:^{
+    [UIView animateWithDuration:0.0 animations:^{
         frame.origin.x = newX;
         self.topView.frame = frame;
         [self setSwitchColorWithStatus:on];

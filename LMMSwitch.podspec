@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LMMSwitch'
-  s.version          = '1.0.4'
+  s.version          = '1.0.0'
   s.summary          = '自定义switch'
 
 # This description is used to generate tags and improve search results.
